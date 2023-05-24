@@ -4,7 +4,7 @@ Este repositorio tiene la siguiente estructura:
 
 Una carpeta de documentos "docs" que contiene 
 
-- el archivo que genera la tesis en docs/memoria.tex (debe compilarse con XeLaTex) y la base de datos con la bibliografía utilizada docs/referencias.bib (más detalles en docs/LEEME.txt) y
+- el archivo que genera la tesis en docs/Memoria/memoria.tex (debe compilarse con XeLaTex) y la base de datos con la bibliografía utilizada docs/Memoria/referencias.bib (más detalles en docs/LEEME.txt) y
 - una carpeta con la presentacion de los avances del trabajo en docs/Presentacion/home.Rmd
 
 Una carpeta con los códigos necesarios para ingestar los datos y para hacer el tratamiento de los mismos
