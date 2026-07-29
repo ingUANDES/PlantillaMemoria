@@ -96,7 +96,12 @@
 
 \usepackage{fontspec}
  
-\setmainfont{Times New Roman}
+\IfFontExistsTF{Times New Roman}
+  {\setmainfont{Times New Roman}}
+  {\IfFontExistsTF{Liberation Serif}
+    {\setmainfont{Liberation Serif}}
+    {\setmainfont{TeX Gyre Termes}}}
+
 
 
 
